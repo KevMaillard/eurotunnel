@@ -1,0 +1,15 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "test node ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "kevmai",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "request": "^2.88.2"
+  }
+}
