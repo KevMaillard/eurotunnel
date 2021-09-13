@@ -31,14 +31,6 @@ fs.writeFile('output00086714.json', jsonOutput, 'utf8', function (err) {
 });
 
                                                                                       // Envoi du JSON sur l'API >>> ne fonctionne pas encore
-// fetch('http://localhost:5000/api/v1/ITAccount', {
-//     method: 'POST',
-//     headers: {
-//         'accept': '*/*',
-//         'Content-Type': 'application/*+json'
-//     },
-//     body: JSON.stringify(obj)
-// });
 var options = {
   url: 'http://localhost:5000/api/v1/ITAccount',
   method: 'POST',
